@@ -2,8 +2,6 @@ module github.com/laof/collide
 
 go 1.21
 
-toolchain go1.21.3
-
 require (
 	github.com/Dreamacro/protobytes v0.0.0-20230911123819-0bbf144b9b9a
 	github.com/dlclark/regexp2 v1.10.0
