@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/laof/clash/log"
+	"github.com/laof/collide/log"
 )
 
 var printMarkWarnOnce sync.Once

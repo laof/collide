@@ -3,12 +3,12 @@ package socks
 import (
 	"net"
 
-	"github.com/laof/clash/adapter/inbound"
-	"github.com/laof/clash/common/pool"
-	"github.com/laof/clash/common/sockopt"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/log"
-	"github.com/laof/clash/transport/socks5"
+	"github.com/laof/collide/adapter/inbound"
+	"github.com/laof/collide/common/pool"
+	"github.com/laof/collide/common/sockopt"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/log"
+	"github.com/laof/collide/transport/socks5"
 )
 
 type UDPListener struct {

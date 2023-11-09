@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/laof/clash/transport/vmess"
+	"github.com/laof/collide/transport/vmess"
 )
 
 // Option is options of websocket obfs

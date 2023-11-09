@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/laof/clash/component/auth"
+	"github.com/laof/collide/component/auth"
 )
 
 var authenticator auth.Authenticator

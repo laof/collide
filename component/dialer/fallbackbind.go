@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/laof/clash/component/iface"
+	"github.com/laof/collide/component/iface"
 )
 
 func lookupLocalAddr(ifaceName string, network string, destination net.IP, port int) (net.Addr, error) {

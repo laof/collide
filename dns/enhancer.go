@@ -3,9 +3,9 @@ package dns
 import (
 	"net"
 
-	"github.com/laof/clash/common/cache"
-	"github.com/laof/clash/component/fakeip"
-	C "github.com/laof/clash/constant"
+	"github.com/laof/collide/common/cache"
+	"github.com/laof/collide/component/fakeip"
+	C "github.com/laof/collide/constant"
 )
 
 type ResolverEnhancer struct {

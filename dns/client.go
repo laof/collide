@@ -8,8 +8,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/laof/clash/component/dialer"
-	"github.com/laof/clash/component/resolver"
+	"github.com/laof/collide/component/dialer"
+	"github.com/laof/collide/component/resolver"
 
 	D "github.com/miekg/dns"
 )

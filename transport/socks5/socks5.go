@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/laof/clash/component/auth"
+	"github.com/laof/collide/component/auth"
 
 	"github.com/Dreamacro/protobytes"
 )

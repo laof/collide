@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/laof/clash/component/dhcp"
-	"github.com/laof/clash/component/iface"
-	"github.com/laof/clash/component/resolver"
+	"github.com/laof/collide/component/dhcp"
+	"github.com/laof/collide/component/iface"
+	"github.com/laof/collide/component/resolver"
 
 	D "github.com/miekg/dns"
 )

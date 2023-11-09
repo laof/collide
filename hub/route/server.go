@@ -10,9 +10,9 @@ import (
 	"time"
 	"unsafe"
 
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/log"
-	"github.com/laof/clash/tunnel/statistic"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/log"
+	"github.com/laof/collide/tunnel/statistic"
 
 	"github.com/Dreamacro/protobytes"
 	"github.com/go-chi/chi/v5"

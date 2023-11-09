@@ -9,9 +9,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/laof/clash/component/dialer"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/transport/socks5"
+	"github.com/laof/collide/component/dialer"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/transport/socks5"
 )
 
 type Socks5 struct {

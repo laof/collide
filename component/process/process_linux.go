@@ -9,7 +9,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/laof/clash/common/pool"
+	"github.com/laof/collide/common/pool"
 
 	"github.com/mdlayher/netlink"
 	"golang.org/x/sys/unix"

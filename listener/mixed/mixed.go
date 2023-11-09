@@ -3,13 +3,13 @@ package mixed
 import (
 	"net"
 
-	"github.com/laof/clash/common/cache"
-	N "github.com/laof/clash/common/net"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/listener/http"
-	"github.com/laof/clash/listener/socks"
-	"github.com/laof/clash/transport/socks4"
-	"github.com/laof/clash/transport/socks5"
+	"github.com/laof/collide/common/cache"
+	N "github.com/laof/collide/common/net"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/listener/http"
+	"github.com/laof/collide/listener/socks"
+	"github.com/laof/collide/transport/socks4"
+	"github.com/laof/collide/transport/socks5"
 )
 
 type Listener struct {

@@ -1,9 +1,9 @@
 package rules
 
 import (
-	"github.com/laof/clash/component/ipset"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/log"
+	"github.com/laof/collide/component/ipset"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/log"
 )
 
 type IPSet struct {

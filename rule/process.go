@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	C "github.com/laof/clash/constant"
+	C "github.com/laof/collide/constant"
 )
 
 type Process struct {

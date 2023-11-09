@@ -6,8 +6,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/laof/clash/component/dialer"
-	C "github.com/laof/clash/constant"
+	"github.com/laof/collide/component/dialer"
+	C "github.com/laof/collide/constant"
 )
 
 type Base struct {

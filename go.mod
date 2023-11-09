@@ -1,4 +1,4 @@
-module github.com/laof/clash
+module github.com/laof/collide
 
 go 1.21
 

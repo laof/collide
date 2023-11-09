@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"sync"
 
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/transport/socks5"
-	"github.com/laof/clash/transport/vmess"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/transport/socks5"
+	"github.com/laof/collide/transport/vmess"
 
 	"github.com/Dreamacro/protobytes"
 )

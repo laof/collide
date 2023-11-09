@@ -21,10 +21,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/laof/clash/adapter/outbound"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/hub/executor"
-	"github.com/laof/clash/transport/socks5"
+	"github.com/laof/collide/adapter/outbound"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/hub/executor"
+	"github.com/laof/collide/transport/socks5"
 )
 
 const (

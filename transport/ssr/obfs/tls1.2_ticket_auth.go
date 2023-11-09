@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/laof/clash/common/pool"
-	"github.com/laof/clash/transport/ssr/tools"
+	"github.com/laof/collide/common/pool"
+	"github.com/laof/collide/transport/ssr/tools"
 )
 
 func init() {

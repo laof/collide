@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/laof/clash/constant"
+	"github.com/laof/collide/constant"
 )
 
 // Vehicle Type

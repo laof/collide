@@ -27,11 +27,11 @@ export default defineConfig({
     sidebar: chapters,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/laof/clash' },
+      { icon: 'github', link: 'https://github.com/laof/collide' },
     ],
 
     editLink: {
-      pattern: 'https://github.com/laof/clash/edit/master/docs/:path',
+      pattern: 'https://github.com/laof/collide/edit/master/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
@@ -50,8 +50,8 @@ function nav() {
     {
       text: 'Download',
       items: [
-        { text: 'Open-source Edition', link: 'https://github.com/laof/clash/releases/' },
-        { text: 'Premium Edition', link: 'https://github.com/laof/clash/releases/tag/premium' },
+        { text: 'Open-source Edition', link: 'https://github.com/laof/collide/releases/' },
+        { text: 'Premium Edition', link: 'https://github.com/laof/collide/releases/tag/premium' },
       ]
     }
   ]

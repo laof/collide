@@ -4,10 +4,10 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/laof/clash/adapter/inbound"
-	"github.com/laof/clash/common/pool"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/transport/socks5"
+	"github.com/laof/collide/adapter/inbound"
+	"github.com/laof/collide/common/pool"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/transport/socks5"
 )
 
 type UDPListener struct {

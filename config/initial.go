@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/laof/clash/component/mmdb"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/log"
+	"github.com/laof/collide/component/mmdb"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/log"
 )
 
 func downloadMMDB(path string) (err error) {

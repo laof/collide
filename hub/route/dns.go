@@ -5,7 +5,7 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/laof/clash/component/resolver"
+	"github.com/laof/collide/component/resolver"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

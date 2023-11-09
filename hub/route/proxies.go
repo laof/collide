@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/laof/clash/adapter"
-	"github.com/laof/clash/adapter/outboundgroup"
-	"github.com/laof/clash/component/profile/cachefile"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/tunnel"
+	"github.com/laof/collide/adapter"
+	"github.com/laof/collide/adapter/outboundgroup"
+	"github.com/laof/collide/component/profile/cachefile"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

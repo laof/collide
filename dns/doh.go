@@ -10,8 +10,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/laof/clash/component/dialer"
-	"github.com/laof/clash/component/resolver"
+	"github.com/laof/collide/component/dialer"
+	"github.com/laof/collide/component/resolver"
 
 	D "github.com/miekg/dns"
 )

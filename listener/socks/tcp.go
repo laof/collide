@@ -4,12 +4,12 @@ import (
 	"io"
 	"net"
 
-	"github.com/laof/clash/adapter/inbound"
-	N "github.com/laof/clash/common/net"
-	C "github.com/laof/clash/constant"
-	authStore "github.com/laof/clash/listener/auth"
-	"github.com/laof/clash/transport/socks4"
-	"github.com/laof/clash/transport/socks5"
+	"github.com/laof/collide/adapter/inbound"
+	N "github.com/laof/collide/common/net"
+	C "github.com/laof/collide/constant"
+	authStore "github.com/laof/collide/listener/auth"
+	"github.com/laof/collide/transport/socks4"
+	"github.com/laof/collide/transport/socks5"
 )
 
 type Listener struct {

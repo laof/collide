@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/laof/clash/transport/shadowsocks/shadowaead"
-	"github.com/laof/clash/transport/shadowsocks/shadowstream"
+	"github.com/laof/collide/transport/shadowsocks/shadowaead"
+	"github.com/laof/collide/transport/shadowsocks/shadowstream"
 )
 
 type Cipher interface {

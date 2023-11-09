@@ -11,6 +11,6 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/laof/clash)
+      - prefix(github.com/laof/collide)
   staticcheck:
     go: '1.20'

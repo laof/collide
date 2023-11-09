@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/laof/clash/adapter/outbound"
-	"github.com/laof/clash/common/singledo"
-	"github.com/laof/clash/component/dialer"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/constant/provider"
+	"github.com/laof/collide/adapter/outbound"
+	"github.com/laof/collide/common/singledo"
+	"github.com/laof/collide/component/dialer"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/constant/provider"
 )
 
 type Relay struct {

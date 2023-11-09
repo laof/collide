@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/laof/clash/component/dialer"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/transport/gun"
-	"github.com/laof/clash/transport/trojan"
+	"github.com/laof/collide/component/dialer"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/transport/gun"
+	"github.com/laof/collide/transport/trojan"
 
 	"golang.org/x/net/http2"
 )

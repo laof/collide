@@ -9,11 +9,11 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/laof/clash/config"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/hub"
-	"github.com/laof/clash/hub/executor"
-	"github.com/laof/clash/log"
+	"github.com/laof/collide/config"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/hub"
+	"github.com/laof/collide/hub/executor"
+	"github.com/laof/collide/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

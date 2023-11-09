@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/laof/clash/adapter/outbound"
-	"github.com/laof/clash/adapter/provider"
-	"github.com/laof/clash/common/structure"
-	C "github.com/laof/clash/constant"
-	types "github.com/laof/clash/constant/provider"
+	"github.com/laof/collide/adapter/outbound"
+	"github.com/laof/collide/adapter/provider"
+	"github.com/laof/collide/common/structure"
+	C "github.com/laof/collide/constant"
+	types "github.com/laof/collide/constant/provider"
 
 	regexp "github.com/dlclark/regexp2"
 )

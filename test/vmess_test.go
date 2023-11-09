@@ -8,8 +8,8 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/stretchr/testify/require"
 
-	"github.com/laof/clash/adapter/outbound"
-	C "github.com/laof/clash/constant"
+	"github.com/laof/collide/adapter/outbound"
+	C "github.com/laof/collide/constant"
 )
 
 func TestClash_Vmess(t *testing.T) {

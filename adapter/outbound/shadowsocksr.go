@@ -6,13 +6,13 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/laof/clash/component/dialer"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/transport/shadowsocks/core"
-	"github.com/laof/clash/transport/shadowsocks/shadowaead"
-	"github.com/laof/clash/transport/shadowsocks/shadowstream"
-	"github.com/laof/clash/transport/ssr/obfs"
-	"github.com/laof/clash/transport/ssr/protocol"
+	"github.com/laof/collide/component/dialer"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/transport/shadowsocks/core"
+	"github.com/laof/collide/transport/shadowsocks/shadowaead"
+	"github.com/laof/collide/transport/shadowsocks/shadowstream"
+	"github.com/laof/collide/transport/ssr/obfs"
+	"github.com/laof/collide/transport/ssr/protocol"
 )
 
 type ShadowSocksR struct {
@@ -94,7 +94,7 @@ func (ssr *ShadowSocksR) ListenPacketContext(ctx context.Context, metadata *C.Me
 
 func NewShadowSocksR(option ShadowSocksROption) (*ShadowSocksR, error) {
 	// SSR protocol compatibility
-	// https://github.com/laof/clash/pull/2056
+	// https://github.com/laof/collide/pull/2056
 	if option.Cipher == "none" {
 		option.Cipher = "dummy"
 	}

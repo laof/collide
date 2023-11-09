@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/laof/clash/adapter/outbound"
-	"github.com/laof/clash/common/murmur3"
-	"github.com/laof/clash/common/singledo"
-	"github.com/laof/clash/component/dialer"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/constant/provider"
+	"github.com/laof/collide/adapter/outbound"
+	"github.com/laof/collide/common/murmur3"
+	"github.com/laof/collide/common/singledo"
+	"github.com/laof/collide/component/dialer"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/constant/provider"
 
 	"golang.org/x/net/publicsuffix"
 )

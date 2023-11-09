@@ -5,7 +5,7 @@ sidebarOrder: 8
 
 # The Profiling Engine
 
-https://github.com/laof/clash-tracing
+https://github.com/laof/collide-tracing
 
 ```yaml
 profile:

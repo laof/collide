@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/laof/clash/common/cache"
-	"github.com/laof/clash/common/picker"
-	"github.com/laof/clash/log"
+	"github.com/laof/collide/common/cache"
+	"github.com/laof/collide/common/picker"
+	"github.com/laof/collide/log"
 
 	D "github.com/miekg/dns"
 	"github.com/samber/lo"

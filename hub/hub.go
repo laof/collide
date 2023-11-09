@@ -1,9 +1,9 @@
 package hub
 
 import (
-	"github.com/laof/clash/config"
-	"github.com/laof/clash/hub/executor"
-	"github.com/laof/clash/hub/route"
+	"github.com/laof/collide/config"
+	"github.com/laof/collide/hub/executor"
+	"github.com/laof/collide/hub/route"
 )
 
 type Option func(*config.Config)

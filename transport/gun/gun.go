@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/laof/clash/common/pool"
+	"github.com/laof/collide/common/pool"
 
 	"go.uber.org/atomic"
 	"golang.org/x/net/http2"

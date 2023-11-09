@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/laof/clash/component/dialer"
-	"github.com/laof/clash/component/resolver"
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/transport/gun"
-	"github.com/laof/clash/transport/socks5"
-	"github.com/laof/clash/transport/vmess"
+	"github.com/laof/collide/component/dialer"
+	"github.com/laof/collide/component/resolver"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/transport/gun"
+	"github.com/laof/collide/transport/socks5"
+	"github.com/laof/collide/transport/vmess"
 
 	"golang.org/x/net/http2"
 )

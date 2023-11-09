@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/laof/clash/common/observable"
+	"github.com/laof/collide/common/observable"
 
 	log "github.com/sirupsen/logrus"
 )

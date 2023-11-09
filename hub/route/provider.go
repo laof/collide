@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	C "github.com/laof/clash/constant"
-	"github.com/laof/clash/constant/provider"
-	"github.com/laof/clash/tunnel"
+	C "github.com/laof/collide/constant"
+	"github.com/laof/collide/constant/provider"
+	"github.com/laof/collide/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
